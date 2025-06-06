@@ -3,6 +3,7 @@
 pkg update -y && pkg upgrade -y
 pkg install -y python ffmpeg git wget clang make pkg-config libffi
 
+
 pip install --upgrade pip setuptools wheel
 pip install yt-dlp
 pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cpu/torch_stable.html
