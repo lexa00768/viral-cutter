@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 pkg update -y && pkg upgrade -y
-pkg install -y python ffmpeg git wget clang make pkg-config libffi-dev
+pkg install -y python ffmpeg git wget clang make pkg-config libffi
 
 pip install --upgrade pip setuptools wheel
 pip install yt-dlp
